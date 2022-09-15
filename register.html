@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PortFolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?            
+    family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+    <header class="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="contact-form">
+        <div class="contact-header">
+          <h3>Register With Us</h3>
+        </div>
+        <div>
+          <form name="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="firstname">First Name</label>
+              <input type="text" required="required">
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last Name</label>
+              <input type="text" required="required">
+            </div>
+            <div class="form-group">
+              <label for="tel-no">Phone Number</label>
+              <input type="tel" required="required">
+            </div>
+            <div class="form-group">
+              <label>Gender</label>
+              <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>  
+            <div class="form-group">
+              <label for="country">Country</label>
+              <input type="text" required="required">
+            </div>
+            <div class="form-group">
+              <label for="state">State/Province</label>
+              <input type="text" required="required">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" required="required">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" required="required" maxlength="10">
+            </div>
+            <div class="form-group">
+              <label for="confirm_password">Confirm Password</label>
+              <input type="password" required="required" maxlength="10">
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <div class="footer-wrapper">
+        <p>Design with <span class="bg-heart">&hearts;</span> by DevGee | &copy;
+          <script>
+            let today = new Date()
+            let thisYear = today.getFullYear()
+            document.write(thisYear)
+          </script>
+        </p>
+      </div>
+    </footer>
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+</html>
